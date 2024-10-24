@@ -74,6 +74,9 @@ The Evidence Soft Consistent Algorithm (ESC) leverages multiple `SGDClassifier` 
 - **Adversarial Robustness:** Designed to operate effectively in challenging, adversarial environments by generating adversarial labels and aggregating predictions accordingly.
 - **Informativeness Check:** Automatically skips mass updates when all experts agree, avoiding unnecessary adjustments in consensus scenarios.
 
+## Testing the Algorithms
+Each algorithm can be tested on a synthetic dataset created using make_classification from the scikit-learn library. The dataset can be split into training and test sets using train_test_split. 
+
 ## Installation
 
 This project requires Python version 3.10.12 and the following libraries:
@@ -81,4 +84,5 @@ This project requires Python version 3.10.12 and the following libraries:
 - **NumPy** (version >= 1.22.0)
 - **Scikit-learn** (version >= 0.24)
 - **itertools** (part of the Python standard library, no installation needed)
+- **Matplotlib** (version >= 3.4.0, for visualizations)
 
