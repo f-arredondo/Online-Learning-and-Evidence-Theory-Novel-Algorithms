@@ -75,4 +75,11 @@ The Evidence Soft Consistent Algorithm (ESC) leverages multiple `SGDClassifier` 
 - **Non-informative Consensus Handling:** Recognizes the lack of diversity when all experts make the same prediction and refrains from updating the mass function, acknowledging the uninformative nature of such consensus.
 - **Adversarial Robustness:** Designed to operate effectively in challenging, adversarial environments by generating adversarial labels and aggregating predictions accordingly.
 
-# Installation
+## Installation
+
+This project requires Python version 3.10.12 and the following libraries:
+
+- **NumPy** (version >= 1.22.0)
+- **Scikit-learn** (version >= 0.24)
+- **itertools** (part of the Python standard library, no installation needed)
+
